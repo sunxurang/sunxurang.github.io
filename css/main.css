@@ -880,7 +880,7 @@ pre .javascript .function {
 }
 .site-meta {
   margin: 0;
-  text-align: left;
+  text-align: center;
 }
 @media (max-width: 767px) {
   .site-meta {
@@ -1467,6 +1467,9 @@ pre .javascript .function {
   max-width: 96px;
   height: auto;
   border: 2px solid #333;
+  border-radius: 50%;
+  -webkit-border-radius: 50%;
+  -moz-border-radius: 50%;
 }
 .site-author-name {
   margin: 5px 0 0;
@@ -1548,7 +1551,7 @@ pre .javascript .function {
   width: 4px;
   height: 4px;
   border-radius: 50%;
-  background: #38ffb5;
+  background: #e38382;
 }
 .links-of-blogroll {
   font-size: 13px;
@@ -2163,7 +2166,7 @@ hr {
   }
 }
 .site-meta .brand {
-  padding: 2px 1px;
+  padding: 20px 1px;
   background: none;
 }
 @media (max-width: 767px) {
@@ -2223,8 +2226,7 @@ hr {
   float: right;
 }
 .menu {
-  float: right;
-  margin: 8px 0 0 0;
+  margin: 22px -30 0 0;
 }
 @media (max-width: 767px) {
   .menu {
@@ -2279,7 +2281,7 @@ hr {
 }
 .posts-expand .post-title,
 .posts-expand .post-meta {
-  text-align: left;
+  text-align: center;
 }
 @media (max-width: 767px) {
   .posts-expand .post-title,
@@ -2337,16 +2339,15 @@ hr {
 }
 .post-more-link {
   margin-top: 20px;
-  text-align: left;
+  text-align: center;
 }
 .post-more-link a {
-  padding: 0;
   font-size: 14px;
-  color: #666;
-  background: none;
-  border: none;
-  border-bottom: 2px solid #666;
-  transition-property: border;
+  padding: 0 20px;
+  color: #555;
+  border: 2px solid #555;
+  border-radius: 2px;
+  background: #fff;
 }
 @media (max-width: 767px) {
   .post-more-link a {
@@ -2417,7 +2418,6 @@ hr {
 }
 .footer-inner {
   margin: 0 auto;
-  text-align: left;
 }
 @media (max-width: 767px) {
   .footer-inner {
