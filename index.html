@@ -283,8 +283,8 @@
             
               
                 
-                <a class="post-title-link" href="/2016/05/30/我的第6篇博客副本 3/" itemprop="url">
-                  Hello World
+                <a class="post-title-link" href="/2016/05/31/markdown_语法说明/" itemprop="url">
+                  未命名
                 </a>
               
             
@@ -297,8 +297,8 @@
               <i class="fa fa-calendar-o"></i>
             </span>
             <span class="post-meta-item-text">发表于</span>
-            <time itemprop="dateCreated" datetime="2016-05-30T13:55:39+08:00" content="2016-05-30">
-              2016-05-30
+            <time itemprop="dateCreated" datetime="2016-05-31T11:47:09+08:00" content="2016-05-31">
+              2016-05-31
             </time>
           </span>
 
@@ -308,8 +308,8 @@
             
               <span class="post-comments-count">
                 &nbsp; | &nbsp;
-                <a href="/2016/05/30/我的第6篇博客副本 3/#comments" itemprop="discussionUrl">
-                  <span class="post-comments-count ds-thread-count" data-thread-key="2016/05/30/我的第6篇博客副本 3/" itemprop="commentsCount"></span>
+                <a href="/2016/05/31/markdown_语法说明/#comments" itemprop="discussionUrl">
+                  <span class="post-comments-count ds-thread-count" data-thread-key="2016/05/31/markdown_语法说明/" itemprop="commentsCount"></span>
                 </a>
               </span>
             
@@ -334,20 +334,119 @@
       
         
           
-          Welcome to Hexo! This is your very first post. Check documentation for more info. If you get any problems when using Hexo, you can find the answer in troubleshooting or you can ask me on GitHub.
-Quick StartCreate a new post1$ hexo new "My New Post"
-More info: Writing
-Run server1$ hexo server
-More info: Server
-Generate static files1$ hexo generate
-More info: Generating
-Deploy to remote sites1$ hexo deploy
-More info: Deployment
+          Markdown 语法说明
 
-          
+简述
+理念 
+  让文档易写易读
+
+元素
+
+段落
+段落是由一个或多个连续的文本行组成，他的前后要有一个以上的空行
+
+换行
+单个回车是空格，连续回车是分段。
+
+标题
+
+最高标题（用底线====）
+
+第二级标题(用底线—–)
+
+其他标题(在行首加不同数量的#号表示不同的标题)
+
+
+
+引用
+
+在每一行的最前面加上右箭头(&gt;)表示引用。
+
+引用还可以嵌套用不同数量的&gt;就可以
+
+
+
+列表
+
+无序表
+
+在段首加星号(*)
+
+在段加加号 (+)
+
+在段首加减号（-）
+
+
+
+有序表
+
+用数字接着一个英文句点
+
+在内部不会自增有点坑人
+
+的确坑人
+
+代码块(缩进4个空格或是1个制表符就可以)undefined
+
+
+
+
+
+
+val s = “hello Markdown”println( s )
+
+分割线
+
+三个以上的星号
+
+
+三个以上的减号
+
+
+三个以上的底线
+—— ——— ——— ————
+
+
+
+链接
+
+链接文字都是用方括号[ ]来标记的
+This is an example inline link.
+
+
+
+
+
+
+
+
+      [foo]: http://example.com/  &quot;Optional Title Here&quot;
+
+      [foo]: http://example.com/  &apos;Optional Title Here&apos;
+
+      [foo]: http://example.com/  (Optional Title Here)
+* 加粗
+   - 使用两个星号（**）和底线（_）最为标记强调字词的符号。
+
+       **星号加粗效果**
+
+       __底线加粗效果__
+
+* 斜体
+   - 使用一个星号（**）和底线（_）最为标记强调字词的符号。
+
+          *星号斜体效果*
+
+           _底线斜体效果_
+ *  图片（在纯文本应用中添加图片是有一定的难度的，唯一的方法就是吧图片转换位文字的表示方法，这里面可以用url来代替,想要设置宽和高用HTML的img标签。一般的办法就是上传按倒图床上面，通过图床提供的图片地址进行链接然后插入图片，也可以用其他的方法进行处理）
+
+     - 一个惊叹号
+
+     - 接着一个方括号，里面放上图片的替代文
+          ...
 
           <div class="post-more-link text-center">
-            <a class="btn" href="/2016/05/30/我的第6篇博客副本 3/#more" rel="contents">
+            <a class="btn" href="/2016/05/31/markdown_语法说明/#more" rel="contents">
               阅读全文 &raquo;
             </a>
           </div>
@@ -398,7 +497,7 @@ More info: Deployment
             
               
                 
-                <a class="post-title-link" href="/2016/05/30/hello-world/" itemprop="url">
+                <a class="post-title-link" href="/2016/05/30/我的第6篇博客副本 2/" itemprop="url">
                   Hello World
                 </a>
               
@@ -423,8 +522,8 @@ More info: Deployment
             
               <span class="post-comments-count">
                 &nbsp; | &nbsp;
-                <a href="/2016/05/30/hello-world/#comments" itemprop="discussionUrl">
-                  <span class="post-comments-count ds-thread-count" data-thread-key="2016/05/30/hello-world/" itemprop="commentsCount"></span>
+                <a href="/2016/05/30/我的第6篇博客副本 2/#comments" itemprop="discussionUrl">
+                  <span class="post-comments-count ds-thread-count" data-thread-key="2016/05/30/我的第6篇博客副本 2/" itemprop="commentsCount"></span>
                 </a>
               </span>
             
@@ -462,7 +561,122 @@ More info: Deployment
           
 
           <div class="post-more-link text-center">
-            <a class="btn" href="/2016/05/30/hello-world/#more" rel="contents">
+            <a class="btn" href="/2016/05/30/我的第6篇博客副本 2/#more" rel="contents">
+              阅读全文 &raquo;
+            </a>
+          </div>
+        
+      
+    </div>
+
+    <div>
+      
+    </div>
+
+    <div>
+      
+    </div>
+
+    <footer class="post-footer">
+      
+
+      
+
+      
+      
+        <div class="post-eof"></div>
+      
+    </footer>
+  </article>
+
+
+    
+      
+
+  
+  
+
+  
+  
+  
+
+  <article class="post post-type-normal " itemscope itemtype="http://schema.org/Article">
+
+    
+      <header class="post-header">
+
+        
+        
+          <h1 class="post-title" itemprop="name headline">
+            
+            
+              
+                
+                <a class="post-title-link" href="/2016/05/30/我的第3篇博客/" itemprop="url">
+                  Hello World
+                </a>
+              
+            
+          </h1>
+        
+
+        <div class="post-meta">
+          <span class="post-time">
+            <span class="post-meta-item-icon">
+              <i class="fa fa-calendar-o"></i>
+            </span>
+            <span class="post-meta-item-text">发表于</span>
+            <time itemprop="dateCreated" datetime="2016-05-30T13:55:39+08:00" content="2016-05-30">
+              2016-05-30
+            </time>
+          </span>
+
+          
+
+          
+            
+              <span class="post-comments-count">
+                &nbsp; | &nbsp;
+                <a href="/2016/05/30/我的第3篇博客/#comments" itemprop="discussionUrl">
+                  <span class="post-comments-count ds-thread-count" data-thread-key="2016/05/30/我的第3篇博客/" itemprop="commentsCount"></span>
+                </a>
+              </span>
+            
+          
+
+          
+
+          
+          
+
+          
+        </div>
+      </header>
+    
+
+
+    <div class="post-body" itemprop="articleBody">
+
+      
+      
+
+      
+        
+          
+          Welcome to Hexo! This is your very first post. Check documentation for more info. If you get any problems when using Hexo, you can find the answer in troubleshooting or you can ask me on GitHub.
+Quick StartCreate a new post1$ hexo new "My New Post"
+More info: Writing
+Run server1$ hexo server
+More info: Server
+Generate static files1$ hexo generate
+More info: Generating
+Deploy to remote sites1$ hexo deploy
+More info: Deployment
+
+          
+
+          <div class="post-more-link text-center">
+            <a class="btn" href="/2016/05/30/我的第3篇博客/#more" rel="contents">
               阅读全文 &raquo;
             </a>
           </div>
@@ -1297,126 +1511,11 @@ More info: Deployment
 
 
     
-      
-
-  
-  
-
-  
-  
-  
-
-  <article class="post post-type-normal " itemscope itemtype="http://schema.org/Article">
-
-    
-      <header class="post-header">
-
-        
-        
-          <h1 class="post-title" itemprop="name headline">
-            
-            
-              
-                
-                <a class="post-title-link" href="/2016/05/30/我的第6篇博客副本 2/" itemprop="url">
-                  Hello World
-                </a>
-              
-            
-          </h1>
-        
-
-        <div class="post-meta">
-          <span class="post-time">
-            <span class="post-meta-item-icon">
-              <i class="fa fa-calendar-o"></i>
-            </span>
-            <span class="post-meta-item-text">发表于</span>
-            <time itemprop="dateCreated" datetime="2016-05-30T13:55:39+08:00" content="2016-05-30">
-              2016-05-30
-            </time>
-          </span>
-
-          
-
-          
-            
-              <span class="post-comments-count">
-                &nbsp; | &nbsp;
-                <a href="/2016/05/30/我的第6篇博客副本 2/#comments" itemprop="discussionUrl">
-                  <span class="post-comments-count ds-thread-count" data-thread-key="2016/05/30/我的第6篇博客副本 2/" itemprop="commentsCount"></span>
-                </a>
-              </span>
-            
-          
-
-          
-
-          
-          
-
-          
-        </div>
-      </header>
-    
-
-
-    <div class="post-body" itemprop="articleBody">
-
-      
-      
-
-      
-        
-          
-          Welcome to Hexo! This is your very first post. Check documentation for more info. If you get any problems when using Hexo, you can find the answer in troubleshooting or you can ask me on GitHub.
-Quick StartCreate a new post1$ hexo new "My New Post"
-More info: Writing
-Run server1$ hexo server
-More info: Server
-Generate static files1$ hexo generate
-More info: Generating
-Deploy to remote sites1$ hexo deploy
-More info: Deployment
-
-          
-
-          <div class="post-more-link text-center">
-            <a class="btn" href="/2016/05/30/我的第6篇博客副本 2/#more" rel="contents">
-              阅读全文 &raquo;
-            </a>
-          </div>
-        
-      
-    </div>
-
-    <div>
-      
-    </div>
-
-    <div>
-      
-    </div>
-
-    <footer class="post-footer">
-      
-
-      
-
-      
-      
-        <div class="post-eof"></div>
-      
-    </footer>
-  </article>
-
-
-    
   </section>
 
   
   <nav class="pagination">
-    <span class="page-number current">1</span><a class="page-number" href="/page/2/">2</a><a class="extend next" rel="next" href="/page/2/"><i class="fa fa-angle-right"></i></a>
+    <span class="page-number current">1</span><a class="page-number" href="/page/2/">2</a><a class="page-number" href="/page/3/">3</a><a class="extend next" rel="next" href="/page/2/"><i class="fa fa-angle-right"></i></a>
   </nav>
 
 
@@ -1457,7 +1556,7 @@ More info: Deployment
         <nav class="site-state motion-element">
           <div class="site-state-item site-state-posts">
             <a href="/archives">
-              <span class="site-state-item-count">20</span>
+              <span class="site-state-item-count">21</span>
               <span class="site-state-item-name">日志</span>
             </a>
           </div>
